@@ -1,5 +1,4 @@
-Here you can say lots of fun things about your site.
+This site is being developed. 
+no space
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+two spaces
