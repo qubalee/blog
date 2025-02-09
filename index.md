@@ -1,4 +1,3 @@
-This site is being developed. 
-no space
+Welcome!
 
-two spaces
+Coming soon!
