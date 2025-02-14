@@ -1,3 +1,3 @@
-Welcome to Alqubalee's Notes!
+Welcome to Alqubalee's blog!
 
 Coming soon!
