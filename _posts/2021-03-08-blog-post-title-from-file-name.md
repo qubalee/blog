@@ -1,32 +1,102 @@
-## How to: Blog Post Title From First Header
+# Formatting text in Markdown
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+Formatting text in Markdown (.md) files. Here's a quick guide on how to use various Markdown features:
 
-If the file does not start with a header, then the post title will be derived from the filename.
+## Basic Formatting
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+- **Headings**: Use `#` for headings. The number of `#` symbols indicates the heading level.
+  ```markdown
+  # Heading 1
+  ## Heading 2
+  ### Heading 3
+  ```
 
----
+- **Bold Text**: Use double asterisks or double underscores.
+  ```markdown
+  **bold text** or __bold text__
+  ```
 
-### This is a header
+- **Italic Text**: Use single asterisks or single underscores.
+  ```markdown
+  *italic text* or _italic text_
+  ```
 
-#### Some T-SQL Code
+- **Strikethrough**: Use double tildes.
+  ```markdown
+  ~~strikethrough~~
+  ```
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
+## Lists
 
-#### Some PowerShell Code
+- **Unordered Lists**: Use asterisks, plus signs, or hyphens.
+  ```markdown
+  - Item 1
+  - Item 2
+    - Subitem
+  ```
 
-```powershell
-Write-Host "This is a powershell Code block";
+- **Ordered Lists**: Use numbers followed by periods.
+  ```markdown
+  1. First item
+  2. Second item
+     1. Subitem
+  ```
 
-# There are many other languages you can use, but the style has to be loaded first
+## Links and Images
 
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+- **Links**: Use brackets for the text and parentheses for the URL.
+  ```markdown
+  [GitHub](https://github.com)
+  ```
+
+- **Images**: Use an exclamation mark before the brackets.
+  ```markdown
+  ![Alt text](URL_to_image)
+  ```
+
+## Code
+
+- **Inline Code**: Use backticks.
+  ```markdown
+  `inline code`
+  ```
+
+- **Code Blocks**: Use triple backticks or indent with four spaces.
+  ```markdown
+  ```
+  code block
+  ```
+  ```
+
+## Blockquotes
+
+- Use the greater than symbol.
+  ```markdown
+  > This is a blockquote.
+  ```
+
+## Horizontal Rules
+
+- Use three hyphens, asterisks, or underscores.
+  ```markdown
+  ---
+  ```
+
+## Tables
+
+- Use pipes and hyphens to create tables.
+  ```markdown
+  | Header 1 | Header 2 |
+  | -------- | -------- |
+  | Row 1    | Row 2    |
+  ```
+
+## Task Lists
+
+- Use brackets for checkboxes.
+  ```markdown
+  - [ ] Task 1
+  - [x] Task 2 (completed)
+  ```
+
+This should cover most of your formatting needs for GitHub Markdown!
